@@ -1,19 +1,19 @@
-.Eddy {
+.App {
   text-align: center;
 }
 
-.Eddy-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Eddy-logo {
-    animation: Eddy-logo-spin infinite 20s linear;
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.Eddy-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,11 +24,11 @@
   color: white;
 }
 
-.Eddy-link {
+.App-link {
   color: #61dafb;
 }
 
-@keyframes Eddy-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
